@@ -1,0 +1,39 @@
+--- Python and Environment Files ---
+
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.pyc
+*.pyd
+*.so
+
+Environments
+
+venv/
+bollyenv/ # Your current virtual environment name
+.venv/
+env/
+.env
+
+Distribution / Packaging
+
+.Python
+build/
+dist/
+*.egg-info/
+
+Jupyter / VS Code / IDE files
+
+.ipynb_checkpoints
+.vscode/
+
+--- Application/Streamlit Specific ---
+
+Streamlit settings and cache files
+
+.streamlit/
+
+macOS / Windows system files
+
+.DS_Store
+Thumbs.db

@@ -77,6 +77,9 @@ Get quick answers from uploaded files and data sources.
 Example:
 
 [https://bolly-bidu.streamlit.app/](https://bolly-bidu.streamlit.app)
+
+<img width="1597" height="778" alt="image" src="https://github.com/user-attachments/assets/615d30e3-36ba-4d48-8ab0-75cca573fb29" />
+
 ---
 
 ## 🔮 Future Enhancements

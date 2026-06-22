@@ -76,8 +76,7 @@ Get quick answers from uploaded files and data sources.
 
 Example:
 
-https://bidu-ai.streamlit.app
-
+https://bolly-bidu.streamlit.app/
 ---
 
 ## 🔮 Future Enhancements

@@ -108,12 +108,7 @@ The goal is to make conversations informative **and** entertaining.
 
 ---
 
-## 📸 Screenshots
-
-```
-ss of bidu ai interface
-
-```
+##Live Demo:- https://bidu-ai.streamlit.app/
 
 ---
 

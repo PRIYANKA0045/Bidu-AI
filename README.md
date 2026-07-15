@@ -38,7 +38,7 @@ Bidu-AI/
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
-└── assets/
+└── ss of bidu ai interface
 ```
 
 ---
@@ -111,7 +111,7 @@ The goal is to make conversations informative **and** entertaining.
 ## 📸 Screenshots
 
 ```
-<img width="1182" height="826" alt="image" src="https://github.com/user-attachments/assets/4a37711f-694a-4372-8252-2a19ec8da52e" />
+ss of bidu ai interface
 
 ```
 

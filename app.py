@@ -1,7 +1,7 @@
 import streamlit as st
 from google import genai
 from dotenv import load_dotenv
-from pathlib import Path  # Add this import
+from pathlib import Path  
 import os
 
 # Find the .env file relative to this app.py file

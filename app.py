@@ -1,14 +1,15 @@
 import streamlit as st
 from google import genai
 from dotenv import load_dotenv
-from pathlib import Path  
+from pathlib import Path
 import os
 
-# Find the .env file relative to this app.py file
+# Safely load local .env if it exists, otherwise skip it (Streamlit Cloud will handle it)
 env_path = Path(__file__).parent / '.env'
-load_dotenv(dotenv_path=env_path)
+if env_path.exists():
+    load_dotenv(dotenv_path=env_path)
 
-# Retrieve the key from the environment variables
+# This works seamlessly both locally (.env) and in production (Streamlit Secrets)
 API_KEY = os.getenv("GEMINI_API_KEY")
 MODEL_NAME = "gemini-2.5-flash"
 

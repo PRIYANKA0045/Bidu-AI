@@ -107,9 +107,9 @@ It can:
 The goal is to make conversations informative **and** entertaining.
 
 ---
-
+---
 ##Live Demo:- https://bidu-ai.streamlit.app/
-
+---
 ---
 
 ## 🔐 Security

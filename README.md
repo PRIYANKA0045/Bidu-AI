@@ -87,7 +87,7 @@ Get your Gemini API key from **Google AI Studio**.
 ### Run the Application
 
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 ---

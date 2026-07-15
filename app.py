@@ -1,10 +1,12 @@
 import streamlit as st
 from google import genai
 from dotenv import load_dotenv
+from pathlib import Path  # Add this import
 import os
 
-# API KEY AND MODEL SETUP (IMPORTANT!)
-load_dotenv()
+# Find the .env file relative to this app.py file
+env_path = Path(__file__).parent / '.env'
+load_dotenv(dotenv_path=env_path)
 
 # Retrieve the key from the environment variables
 API_KEY = os.getenv("GEMINI_API_KEY")
